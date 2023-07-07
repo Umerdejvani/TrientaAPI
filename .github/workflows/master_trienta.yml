@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'Trienta'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_136BF64F44794ACD96A59611595019B4 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A687A85FA31C482F8279E37BEF90B1D3 }}
           package: .
