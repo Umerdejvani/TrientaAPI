@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ed698c4ce16b4fd788e7daea19cbc0ee" Name="Diagram1">
+        <EntityTypeShape EntityType="FYP_TEST_DBModel.tbl_Candidate" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FYP_TEST_DBModel.tbl_City" Width="1.5" PointX="0.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="FYP_TEST_DBModel.tbl_department" Width="1.5" PointX="0.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FYP_TEST_DBModel.tbl_Ex_Interview_Round1" Width="1.5" PointX="8.25" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FYP_TEST_DBModel.tbl_Ex_Quiz_Round2" Width="1.5" PointX="5.25" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="FYP_TEST_DBModel.tbl_Ex_Task_Round3" Width="1.5" PointX="8.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FYP_TEST_DBModel.tbl_jobtype" Width="1.5" PointX="0.75" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FYP_TEST_DBModel.tbl_positions" Width="1.5" PointX="3.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FYP_TEST_DBModel.tbl_PostedJobs" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="FYP_TEST_DBModel.tbl_questionBank" Width="1.5" PointX="6" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FYP_TEST_DBModel.tbl_results_round2" Width="1.5" PointX="8.25" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FYP_TEST_DBModel.tbl_rounds" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FYP_TEST_DBModel.tbl_Task" Width="1.5" PointX="6" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="FYP_TEST_DBModel.tbl_Users" Width="1.5" PointX="2.75" PointY="1.375" IsExpanded="true" />
+        <AssociationConnector Association="FYP_TEST_DBModel.FK__tbl_Ex_In__Candi__286302EC" ManuallyRouted="false" />
+        <AssociationConnector Association="FYP_TEST_DBModel.FK__tbl_Ex_Qu__Candi__2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="FYP_TEST_DBModel.FK__tbl_Ex_Ta__Candi__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="FYP_TEST_DBModel.FK__tbl_resul__Candi__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="FYP_TEST_DBModel.FK_candidate_tbl_City" ManuallyRouted="false" />
+        <AssociationConnector Association="FYP_TEST_DBModel.FK_PostedJobs_tbl_City" ManuallyRouted="false" />
+        <AssociationConnector Association="FYP_TEST_DBModel.FK__PostedJob__DeptI__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="FYP_TEST_DBModel.FK__tbl_Ex_In__JobID__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="FYP_TEST_DBModel.FK__tbl_Ex_Qu__JobID__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="FYP_TEST_DBModel.FK__tbl_resul__Round__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="FYP_TEST_DBModel.FK_tbl_Ex_Task_Round3_tbl_PostedJobs" ManuallyRouted="false" />
+        <AssociationConnector Association="FYP_TEST_DBModel.FK_tbl_Ex_Task_Round3_tbl_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="FYP_TEST_DBModel.FK__PostedJob__JobTy__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="FYP_TEST_DBModel.FK_tbl_questionBank_tbl_jobtype" ManuallyRouted="false" />
+        <AssociationConnector Association="FYP_TEST_DBModel.FK_tbl_Task_tbl_jobtype" ManuallyRouted="false" />
+        <AssociationConnector Association="FYP_TEST_DBModel.FK__PostedJob__Posit__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="FYP_TEST_DBModel.FK__tbl_quest__Posit__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="FYP_TEST_DBModel.FK_tbl_Task_tbl_positions" ManuallyRouted="false" />
+        <AssociationConnector Association="FYP_TEST_DBModel.FK__tbl_resul__Quest__32E0915F" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
